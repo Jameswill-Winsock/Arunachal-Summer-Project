@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arunachal Pradesh Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('Sela_Pass_.jpg');
+  min-height: 100%;
+}
+
+.wide {letter-spacing: 10px;}
+.hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+<div>
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="bar" id="myNavbar">
+    <a class="bar-item button hover-black hide-medium hide-large right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="bar-item button">HOME</a>
+    <a href="#about" class="bar-item button hide-small"><i class="fa"></i> ABOUT</a>
+    <a href="#Attractions" class="bar-item button hide-small"><i class="fa"></i> ATTRACTIONS</a>
+    <a href="#ThingsToDo" class="bar-item button hide-small"><i class="fa"></i> THINGS TO DO</a>
+    <a href="#images" class="bar-item button hide-small"><i class="fa"></i> IMAGE GALLERY/a>
+    <a href="#contact" class="bar-item button hide-small"><i class="fa"></i> CONTACT</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block white hide hide-large hide-medium">
+    <a href="#about" class="bar-item button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#Attractions" class="bar-item button" onclick="toggleFunction()">ATTRACTIONS</a>
+    <a href="#ThingsToDo" class="bar-item button" onclick="toggleFunction()">THINGS TO DO</a>
+    <a href="#images" class="bar-item button" onclick="toggleFunction()">IMAGE GALLERY</a>
+    <a href="#contact" class="bar-item button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 display-container opacity-min" id="home">
+  <div class="display-middle" style="white-space:nowrap;">
+    <span class="center padding-large black xlarge wide animate-opacity">WELCOME TO <span class="hide-small">ARUNACHAL PRADESH</span> TOURISM</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="content container padding-16" id="about">
+  <h2 class="center">ABOUT</h2>
+  <p class="center"><em>Land of the Dawn-lit mountains</em></p>
+  <p>Arunachal Pradesh is India's remotest state and the first Indian soil to greet the rising sun. 
+    Located on the northeastern tip of India with its borders touching Tibet, Bhutan and Burma (Myanmar), this beautiful land is endowed with dazzling array of flora and fauna that is sure to allure any tourist. 
+    More than 500 rare species of Orchids are found in the dense jungles of Arunachal Pradesh. 
+    The misty hills, sparkling rivers, gurgling waterfalls add charm to the beauty of this incredible land.
+    Ruled by many powerful dynasties and kingdoms, Arunachal Pradesh India is dotted with innumerable historical monuments and archeological remains, which bear testimony to its rich cultural heritage. </p>
+</div>
+
+
+<div class ="content container padding-64" id="Attractions">
+      <h2 class="center">ATTRACTIONS</h2>
+      <p>There are a lot of places in Arunachal Pradesh which you can visit, so here I have narrowed it down to some of the best 5
+        places to visit. From valleys to national parks, and passes, or serenic towns, there will be no time for you to be bored in this beautiful state.</p>
+      </p>
+      <br>
+      
+      <h4 class="">1. Tawang</h4>
+      <img src="Tawang_Monastery.jpg" alt="Tawang Monastery" class="image center hover-opacity" width="90%" height="90%">
+        <p class="">Tawang is a high altitude town located in the lap of the mighty Himalayas which offers a perfect blend of nature and culture. 
+          Since the town boasts an elevation of 10,000 feet, it is a paradise for any mountain lover looking for high altitude places to visit Arunachal Pradesh. 
+          The picturesque town is replete with numerous tourist attractions like vibrant Buddhist monasteries, high altitude passes, war memorial and scenic lakes which make it an enticing holiday destination. 
+          Among the most important tourist attractions, Tawang proudly cradles are the largest monastery in India and Tawang War Memorial built to commemorate the martyrdom of soldiers who laid down their lives in Sino-Indian war.
+          <br>
+          <br>
+          <b>Location: </b>North-Western part of Arunachal Pradesh
+          <br>
+          <b>Best Time to Visit: </b>March to June and September to October
+        </p>
+      <br>
+
+      <h4 class="">2. Ziro Valley</h4>
+      <img src="Ziro_Valley.jpg" alt="Ziro Valley" class="image center hover-opacity" width="90%" height="90%">
+        <p class="">
+          Ziro Valley is a picturesque valley tucked away in the Himalayan foothills. 
+          Surrounded by the pine ridden mountains, paddy rice fields, quaint hamlets, bamboo huts and vibrant range of flora and fauna, Ziro Valley is a paradise for nature lovers, adventure seekers as well as cultural vultures. 
+          Being a World Heritage Site, this valley gives you a chance to explore the culture and tradition of the tribe Apatani which is an exclusive experience that you will cherish for the rest of your life.
+          A visit to this tranquil place will definitely soothe your soul and mind.
+          <br>
+          <br>
+          <b>Location: </b>Lower Subansiri district
+          <br>
+          <b>Best Time to Visit: </b>October to March
+        </p>
+      <br>
+
+      <h4 class="">3. Bomdila</h4>
+      <img src="Bomdilla.jpg" alt="Bomdila" class="image center hover-opacity" width="90%" height="90%">
+        <p class="">
+          Away from the chaos of the city, Bomdila is a remote quaint town which gives you a glimpse of the unique culture and tradition. 
+          Enjoy the natural splendour of this town set amidst the snow-laden hills and vibrant landscape, lush green valley and apple orchards. 
+          <br>
+          Some of the places to visit here are Bomdila Monastery, Sissa Orchid Sanctuary, Gompas, Eaglenest Wildlife Sanctuary, Bomdila View Point and much more. 
+          Bomdila gives you an opportunity to explore the wildlife, culture and tradition and the beauty of nature at a single place.
+          <br>
+          <br>
+          <b>Location: </b>West Kameng
+          <br>
+          <b>Best Time to Visit: </b>April to October
+        </p>
+
+        <h4 class="">4. Namdapha National Park</h4>
+        <img src="Namdapha.jpg" alt="Namdapha National Park" class="imahe center hover-opacity" width="90%" height="90%">
+        <p class="">
+          Another treat for wildlife enthusiasts in Arunachal Pradesh, Namdapha National Park is the largest protected area and the third largest national park in India. 
+          The park is spread across an area of 1985 sq. km and features an elevation range of 200 metres to 4571 metres. 
+          <br>
+          The towering mountains, dense jungles, and many water bodies in the national park harbour an extensive range of wildlife species including snow leopard, red panda, and clouded leopard, and the park is thus considered to be one of the most excellent areas in terms of biodiversity. 
+          The activities that can be enjoyed at Namdapha are wildlife and landscape photography, boat ride, jungle camping, jungle safari, and much more.
+          <br>
+          <br>
+          <b>Location: </b>Changlang district
+          <br>
+          <b>Best time to visit: </b>October to April
+          <br>
+          <b>Entry fee: </b>INR 50 per person
+          <br>
+          <b>Timings: </b>8:00 AM to 5:00 PM
+
+          <h4 class="">5. Sela Pass</h4>
+          <img src="Sela_Pass_2.jpg" alt="Sela Pass" class="image center hover-opacity" width="90%" height="90%">
+          <p class="">
+            Sela Pass is a mountain pass which enjoys an elevation of 13,700 feet. Snow covers this pass all year round and it remains open for the tourists during all seasons. 
+            This pass is considered sacred by Buddhists, and it is believed that there are 101 lakes around it. 
+            <br>
+            The fame of the pass is also attributed to the divine high altitude Sela Lake or often known as the Paradise Lake that adds grace to the picturesqueness of the place. 
+            Sela Lake freezes during the winter which makes this lake dreamlike. 
+            <br>
+            <br>
+            <b>Location: </b>Between Tawang and West Kameng
+            <br>
+            <b>Best Time to Visit: </b>March to April and October-November
+        </p>
+    </div>
+
+    <div class ="content container padding-64" id="ThingsToDo">
+      <h2 class="center">THINGS TO DO</h2>
+      <p>Arunachal is jam packed with things to do during your stay. 
+        The hardest part of planning your holiday will be to decide which ones to do first! 
+        Therefore, I have sorted some things out so you can pick with ease.
+      </p>
+      </p>
+      <br>
+      
+      <h4 class="">1. Trekking</h4>
+      <img src="Trekking.jpg" alt="An image of a trekker" class="image center hover-opacity" width="90%" height="90%">
+        <p class="">
+          A major part of Arunachal Pradesh is covered with lush evergreen forests.
+          Foreign tourists, particularly adventure seekers are regular visitors who come here to explore the numerous trekking routes located in the mountains. 
+          For trekkers, the Bomdila-Tawang area offers enormous scope. 
+          The area around Tawang Chu is both interesting and challenging for trekkers. 
+          Starting from Jung, one can trek to Mago passing through a breathtaking jungle where one can see some superb waterfalls. 
+          The best months for trekking are May and October. 
+          For boating, tourists usually head for the Salley Lake where boating facilities are provided to visitors.
+        </p>
+      <br>
+
+      <h4 class="">2. Rafting</h4>
+      <img src="Rafting.jpg" alt="An image of people rafting in the Siang river" class="image center hover-opacity" width="90%" height="90%">
+        <p class="">
+          Those who have a penchant for river sports make it a point to indulge in rafting on the Siang River which is so thrilling. 
+          Geographical explorers of the past used to address this river as the 'Missing link' while trying to unravel the link between the Brahmaputra of Assam and Tibet's Tsangpo River. 
+          As per Tibetan belief, the Siang River is considered as 'horse mouth river' and its sands are actually emeralds that flows towards east. 
+          They also believe that one can become as strong as a horse by drinking its water.
+        </p>
+      <br>
+    </div>
+
+  </div>
+
+<!-- Container -->
+<div class="content container padding-64" id="images">
+  <h2 class="center">IMAGE GALLERY</h2>
+  <p class="center"><em>Here are some images of the beautiful state.<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="row-padding center">
+    <div class="col m3">
+      <img src="Golden_Pagoda_Namsai.jpg" style="width:100%" onclick="onClick(this)" class="hover-opacity" alt="Golden Pagoda at Namsai">
+    </div>
+
+    <div class="col m3">
+      <img src="Torgya_festival.jpg" style="width:100%" onclick="onClick(this)" class="hover-opacity" alt="Torgya Festival">
+    </div>
+
+    <div class="col m3">
+      <img src="Thangka_painting.jpg" style="width:100%" onclick="onClick(this)" class="hover-opacity" alt="Amitabha Thangka Painting">
+    </div>
+
+    <div class="col m3">
+      <img src="Bamboo_bridge.jpg" style="width:100%" onclick="onClick(this)" class="hover-opacity" alt="A man walking on a bamboo bridge">
+    </div>
+  </div>
+
+  <div class="row-padding center section">
+    <div class="col m3">
+      <img src="Ziro_paddy.jpg" style="width:100%" onclick="onClick(this)" class="hover-opacity" alt="A paddy field in Ziro during the summer">
+    </div>
+
+    <div class="col m3">
+      <img src="/BuddhaTwang.jpg" style="width:100%" onclick="onClick(this)" class="hover-opacity" alt="Statue of the Buddha in Tawang Monastery">
+    </div>
+
+    <div class="col m3">
+      <img src="Pasighat.jpg" style="width:100%" onclick="onClick(this)" class="hover-opacity" alt="A shot of Pasighat">
+    </div>
+
+    <div class="col m3">
+      <img src="Itanagar.jpg" style="width:100%" onclick="onClick(this)" class="hover-opacity" alt="An overhead shot of the capital, Itanagar">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="modal black" onclick="this.style.display='none'">
+  <span class="button large black display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="modal-content animate-zoom center transparent padding-64">
+    <img id="img01" class="image">
+    <p id="caption" class="opacity large"></p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="center black padding-64 opacity hover-opacity-off">
+  <a href="#home" class="button light-grey"><i class="fa fa-arrow-up margin-right"></i>To the top</a>
+  <div class="xlarge section">
+    <p>Made by Madhavansh Singh, Class 12-D</p>
+  </div>
+</footer>
+</div>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "bar" + " card" + " animate-top" + " white";
+    } else {
+        navbar.className = navbar.className.replace(" card animate-top white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+        x.className += " show";
+    } else {
+        x.className = x.className.replace(" show", "");
+    }
+}
+</script>
+</body>
+</html>
